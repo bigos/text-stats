@@ -1,0 +1,43 @@
+* Notes
+
+** decompressing the file
+#+BEGIN_EXAMPLE
+
+$ cp ./rus.tar /tmp
+
+$ cd /tmp
+
+$ mkdir russy
+
+$ mv ./rus.tar ./russy/
+
+$ cd ./russy/
+
+$ ls
+rus.tar
+
+$ tar -xvf ./rus.tar
+rus/yc_U.rtf.zip
+rus/igw_U.rtf.zip
+rus/bhs_U.rtf.zip
+rus/lf_U.rtf.zip
+rus/od_U.rtf.zip
+rus/jy_U.rtf.zip
+rus/
+rus/dg_U.rtf.zip
+rus/cl_U.rtf.zip
+rus/jl_U.rtf.zip
+rus/ia_U.rtf.zip
+rus/rj_U.rtf.zip
+rus/kr_U.rtf.zip
+
+$ ls
+rus  rus.tar
+
+$ cd ./rus/
+
+$ ls
+bhs_U.rtf.zip  ia_U.rtf.zip   jy_U.rtf.zip  od_U.rtf.zip
+cl_U.rtf.zip   igw_U.rtf.zip  kr_U.rtf.zip  rj_U.rtf.zip
+dg_U.rtf.zip   jl_U.rtf.zip   lf_U.rtf.zip  yc_U.rtf.zip
+#+END_EXAMPLE
