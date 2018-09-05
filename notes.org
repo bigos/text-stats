@@ -40,4 +40,8 @@ $ ls
 bhs_U.rtf.zip  ia_U.rtf.zip   jy_U.rtf.zip  od_U.rtf.zip
 cl_U.rtf.zip   igw_U.rtf.zip  kr_U.rtf.zip  rj_U.rtf.zip
 dg_U.rtf.zip   jl_U.rtf.zip   lf_U.rtf.zip  yc_U.rtf.zip
+
+$ unzip \*.zip
+
+$ rm ./*.zip
 #+END_EXAMPLE
